@@ -1,0 +1,10 @@
+{
+  "productos": [
+    {
+      "id": "5cab",
+      "nombre": "Gatito",
+      "precio": "1000",
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAEuvsgn-p0zR_3hWQXsbrq_eFRa2tyiAxOA&s"
+    }
+  ]
+}

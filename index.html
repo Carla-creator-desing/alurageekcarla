@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<link rel="stylesheet" href="style.css">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alurageek</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header class="header"> Alura Geek </header>
+
+    <main>
+
+        <div class="textomisproductos">
+            <h1>Mis productos</h1>
+
+            <!-- Grilla de fotos -->
+
+            <section class="photo-grid" data-lista></section>
+
+        </div>
+
+
+        <section class="right-section">
+
+            <!-- Formulario -->
+
+
+            <form class="form-container" id="formProducto" method="post" data-formulario>
+                <h1>Agregar Producto</h1>
+
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="precio">Precio:</label>
+                <input type="number" id="precio" name="precio" d>
+
+                <label for="imagen">URL de la imagen:</label>
+                <input type="text" id="imagen" placeholder="imagen..." required>
+
+                <section class="form-buttons">
+                    <button type="submit" class="btn enviar">Enviar</button>
+                    <button type="reset" class="btn limpiar">Limpiar</button>
+                </section>
+            </form>
+
+    </main>
+
+    <footer class="footer">
+
+        <h2> Developed by Misaki</h2>
+
+    </footer>
+
+    <script src="js/conexionAPI.js" type="module"> </script> <!-- Esto ya está bien, no requiere cambios -->
+    <script src="js/crearproductos.js" type="module"> </script> <!-- Esto ya está bien, no requiere cambios -->
+    <script src="js/mostrar_productos.js" type="module"> </script> <!-- Esto ya está bien, no requiere cambios -->
+
+
+</body>
+
+
+
+</html>
